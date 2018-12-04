@@ -7,7 +7,7 @@ for example, a running program that called 'party', advice the newer one be call
 
 step 2: edit deploy.sh:<br>
 change 'party' at line 2 `tarname="party"` to your program name `tarname="program"`.<br>
-if name of you uploaded program that newer one is other than '<program>.new', you may change line3 `oriname="$tarname.new"` to you want.
+if name of you uploaded program that newer one is other than 'program.new', you may change line3 `oriname="$tarname.new"` to you want.
 
 step 3: deploy<br>
 `./deploy.sh`
