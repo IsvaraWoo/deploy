@@ -1,4 +1,4 @@
-#！/bin/sh
+#!/bin/sh
 tarname="party"
 oriname="$tarname.new"
 keeplog=false
